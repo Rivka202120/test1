@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#add_part{
+  /* flex: 30%; */
+  width: 30vw;
+  height: 100vh;
+  position: absolute;
+  border: 3px solid rgb(51, 114, 38);
+  background-color:  rgb(152, 214, 139);
+}
+
+#cards_parts{
+    /* flex: 70%; */
+    width: 70vw;
+    height: 100vh;
+    margin-left: 30vw;
+    position: absolute;
+    border: 3px solid rgb(51, 114, 38);
+    padding: 10px;
+    overflow: auto;
+}
+
+#h1{
+text-align: center;
+font-style: oblique;
+}
+
+#p{
+    text-align: center;
+    font-style: oblique;
+}
+
+.itemForm{
+    margin-left: 60px;
+}
+
+#addPart{
+    margin-left: 120px;
+
+}
+
+#form{
+    border: 1.5px solid black;
+    width: 25vw;
+    margin-left: 20px;
+    padding: 8px;
+}
